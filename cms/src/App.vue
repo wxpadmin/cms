@@ -9,7 +9,6 @@ export default {
   name: 'App'
 }
 </script>
-
 <style lang="less">
 .size{
   width: 100%;
