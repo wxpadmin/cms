@@ -71,19 +71,6 @@ export default {
     // 登录
     handleLogin ({ commit }, {userName, password}) {
       userName = userName.trim()
-      console.log(commit,'----------------')
-
-      /*
-      *
-      * function boundCommit(type, payload, options) {
-          return commit.call(store, type, payload, options)
-        }
-      *
-      *
-      *
-      *
-      *
-      * */
       return new Promise((resolve, reject) => {
         login({
           userName,
